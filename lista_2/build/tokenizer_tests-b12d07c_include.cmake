@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/sebci/CLionProjects/Dudzik_275762_ztp/testy/build/tokenizer_tests-b12d07c_tests.cmake")
+  include("C:/Users/sebci/CLionProjects/Dudzik_275762_ztp/testy/build/tokenizer_tests-b12d07c_tests.cmake")
+else()
+  add_test(tokenizer_tests_NOT_BUILT-b12d07c tokenizer_tests_NOT_BUILT-b12d07c)
+endif()
